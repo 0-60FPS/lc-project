@@ -97,4 +97,17 @@ function Display(photos, path) {
 var email = document.getElementById("sendEmail");
 email.addEventListener("click", function() {
 	window.open("mailto:lellis20@punahou.edu?subject=Latin Club&body=Hi, my name is ______. I'm in _______ grade, and I would like to join Latin Club");
-})
+});
+
+var backTop = document.getElementById("upButton");
+backTop.addEventListener("click", function() {
+	var num = 200;
+	var scrollInterval = setInterval(function() {
+		num -= 5;
+		window.scroll(0, num);
+		if (num == 0) {
+			clearInterval(scrollInterval);
+		}
+	}, 5);
+	
+});
