@@ -3,32 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <title>Home - PLC</title> 
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">  
     <link rel="stylesheet" href="css/index.css"> 
 </head>
 <body>
     <div id="top">
         <div id="logoContainer">
-            <img id="logo" src="assets/vectorLogo.svg" alt="Latin Club Logo"> 
+            <img class="photo" src="assets/vectorLogo.svg" alt="Latin Club Logo"> 
         </div>
         <div id="topText">Punahou Latin Club</div>
     </div>
     <ul id="navBar">
-        <li>
-            <a class="active" href="index.html">Home</a>
-        </li>
-        <li>
-            <a href="#">Gallery</a>
-        </li>
-        <li>
-            <a href="#">Roman History</a>
-        </li>
-        <li>
-            <a href="about.html">About</a>
-        </li>
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a href="#">Gallery</a></li>
+        <li><a href="#">Roman History</a></li>
+        <li><a href="about.html">About</a></li>
     </ul>
+    <div id="imageDisplay">
+        <div class="arrow" id="leftArrow">
+            <img class="photo" src="assets/arrow.png" alt="arrow button">
+        </div>
+        <div id="imageContainer">
+            <img id="displayPhoto" class="photo" src="assets/displayImages/circle.png" alt="displayPhoto">
+        </div>
+        <div class="arrow" id="rightArrow">
+            <img class="photo flipped" src="assets/arrow.png" alt="arrow button">
+        </div>
+        <div id="bottomSelect">
+            
+        </div>
+    </div>
+
     <div id="content"></div>
-    <img id="calendar"  src="assets/febcalendar5.png" alt="Calendar"> 
+    <!-- <img id="calendar"  src="assets/febcalendar5.png" alt="Calendar">  -->
     <script src="script.js"></script>
 </body>   
 </html>
