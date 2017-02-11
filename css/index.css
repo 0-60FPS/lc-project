@@ -1,9 +1,9 @@
-/* Image carousel*/
+/* Image carousel */
 #imageDisplay {
 	margin-top: 1em;
 	margin-left: 50vw;
 	width: 47vw;
-	height: 30em;
+	height: 28em;
 	position: relative;
 }
 
@@ -15,11 +15,11 @@
 	z-index: 0;
 }
 
-/* Arrows for moving to next photo*/
+/* Arrows for moving to next photo */
 .arrow {
 	width: 3em;
 	height: 3em;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.5);
 	-webkit-border-radius: 100em; 
 	-moz-border-radius: 100em; 
 	border-radius: 100em;
@@ -32,7 +32,7 @@
 }
 
 .arrow:hover {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 #rightArrow {
@@ -43,7 +43,7 @@
 	left: 0;
 }
 
-/*TODO: Make calendar much better */
+/* TODO: Make calendar much better */
 
 .flipped {
 	-moz-transform: scaleX(-1);
