@@ -93,3 +93,8 @@ function Display(photos, path) {
   	}
 	
 }
+
+var email = document.getElementById("sendEmail");
+email.addEventListener("click", function() {
+	window.open("mailto:lellis20@punahou.edu?subject=Latin Club&body=Hi, my name is ______. I'm in _______ grade, and I would like to join Latin Club");
+})

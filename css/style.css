@@ -31,24 +31,24 @@ body {
 
 
 /* Header Bar*/
-#topText {
+#headerText {
 	font-size: 2.5em;
 	margin: 0 auto;
 	text-align: center;
 }
 
-#top {
+#header {
 	width: 100vw;
 	height: 14.5em;
 }
 
 /* Use :after because then the opacity doesn't affect children elements of #top */
-#top:after {
+#header:after {
 	opacity: 0.70;
-	background-image: url("../assets/background2.jpg");
+	background-image: url("../assets/header.jpg");
 	width: 100vw;
 	height: 15.1em;
-	opacity: 0.42;
+	opacity: 1.0;
 	top: 0;
     left: 0;
     content: '';
@@ -57,7 +57,7 @@ body {
 }
 
 /* Make the children divs of #top show over the opaque background */
-#top > div {
+#header > div {
 	position: relative;
     z-index: 1;
 }
@@ -106,4 +106,28 @@ body {
 /* Current tab color is higlight a different color (!important overrides default) */
 .active {
 	background-color: #C11C18 !important;
+}
+
+#footer {
+	width: 100vw;
+	height: 10em;
+	background-color: #009BF4;
+	position: relative;
+}
+
+.textContent {
+	text-align: center;
+	width: 50em;
+	height: 1em;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	position: absolute;
+	font-size: 1.5em;
+}
+
+#sendEmail {
+	display: inline-block;
+	color: #7638B7;
+	cursor: pointer;
 }

@@ -8,11 +8,11 @@
     <link rel="stylesheet" href="css/index.css"> 
 </head>
 <body>
-    <div id="top">
+    <div id="header">
         <div id="logoContainer">
             <img class="photo" src="assets/vectorLogo.svg" alt="Latin Club Logo"> 
         </div>
-        <div id="topText">Punahou Latin Club</div>
+        <div id="headerText">Punahou Latin Club</div>
     </div>
     <ul id="navBar">
         <li><a class="active" href="index.html">Home</a></li>
@@ -20,15 +20,22 @@
         <li><a href="#">Roman History</a></li>
         <li><a href="about.html">About</a></li>
     </ul>
-    <div id="imageDisplay">
-        <div id="imageContainer"></div>
-        <div class="arrow" id="leftArrow">
-            <img class="photo" src="assets/arrow.png" alt="arrow button">
+    <div id="container">
+        <div id="imageDisplay">
+            <div id="imageContainer"></div>
+            <div class="arrow" id="leftArrow">
+                <img class="photo" src="assets/arrow.png" alt="arrow button">
+            </div>
+            <div class="arrow" id="rightArrow">
+                <img class="photo flipped" src="assets/arrow.png" alt="arrow button">
+            </div>
+            <div id="bottomSelect"></div>
         </div>
-        <div class="arrow" id="rightArrow">
-            <img class="photo flipped" src="assets/arrow.png" alt="arrow button">
+    </div>
+    <div id="footer">
+        <div class="textContent">
+            Please email <p id="sendEmail">lellis20@punahou.edu</p> or show up to the next latin club meeting to join.
         </div>
-        <div id="bottomSelect"></div>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script src="js/script.js"></script>
