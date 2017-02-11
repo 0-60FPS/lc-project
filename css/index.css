@@ -2,17 +2,15 @@
 #imageDisplay {
 	margin-top: 1em;
 	margin-left: 50vw;
-	background-color: rgba(0, 155, 244, 1.0);
-	width: 45vw;
-	height: 40em;
-	display: flex;
-	align-items: center;
+	width: 47vw;
+	height: 30em;
+	position: relative;
 }
 
 #imageContainer {
 	margin: 0 auto;
-	width: 30em;
-	height: 30em;
+	width: 100%;
+	height: 100%;
 	border: 1px solid #000;
 	z-index: 0;
 }
@@ -21,27 +19,28 @@
 .arrow {
 	width: 3em;
 	height: 3em;
-    top: 50%;
-    left: 0;
-    opacity: 1.0;
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, 0.6);
 	-webkit-border-radius: 100em; 
 	-moz-border-radius: 100em; 
-	border-radius: 100em; 
+	border-radius: 100em;
+	margin-top: -4em; 
+	z-index: 5;
+	position: absolute;
+	margin: auto;
+	bottom: 0;
+	top: 0;
 }
 
 .arrow:hover {
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 #rightArrow {
-	z-index: 3;
-	float: right;
+	right: 0;
 }
 
 #leftArrow {
-	z-index: 3;
-	float: left;
+	left: 0;
 }
 
 /*TODO: Make calendar much better */

@@ -52,6 +52,7 @@ body {
     left: 0;
     content: '';
     position: absolute;
+    background-repeat: no-repeat;
 }
 
 #top > div {
