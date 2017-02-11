@@ -42,7 +42,7 @@ body {
 	height: 14.5em;
 }
 
-/* Use :after because opacity doesn't affect children elements of #top */
+/* Use :after because then the opacity doesn't affect children elements of #top */
 #top:after {
 	opacity: 0.70;
 	background-image: url("../assets/background2.jpg");

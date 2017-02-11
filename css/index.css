@@ -15,11 +15,38 @@
 	z-index: 0;
 }
 
+#bottomSelect {
+	height: 2em;
+	margin: auto;
+	position: absolute;
+	z-index: 5;
+	margin: auto;
+	bottom: 0.3em;
+	right: 0;
+	left: 0;
+}
+
+.circleSelector {
+	-webkit-border-radius: 100em; 
+	-moz-border-radius: 100em; 
+	border-radius: 100em;
+	border: 0.1em solid #FFFFFF;
+	height: 1.25em;
+	width: 1.25em;
+	top: 0;
+	z-index: 10;
+	position: absolute;
+}
+
+.selected {
+	background-color: #FFFFFF;
+}
+
 /* Arrows for moving to next photo */
 .arrow {
 	width: 3em;
 	height: 3em;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.8);
 	-webkit-border-radius: 100em; 
 	-moz-border-radius: 100em; 
 	border-radius: 100em;
@@ -32,7 +59,8 @@
 }
 
 .arrow:hover {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 3.1em;
 }
 
 #rightArrow {
