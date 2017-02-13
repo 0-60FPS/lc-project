@@ -39,7 +39,7 @@ body {
 
 #header {
 	width: 100vw;
-	height: 14.5em;
+	height: 13.5em;
 }
 
 /* Use :after because then the opacity doesn't affect children elements of #top */
@@ -47,7 +47,7 @@ body {
 	opacity: 0.70;
 	background-image: url("../assets/header.jpg");
 	width: 100vw;
-	height: 15.1em;
+	height: 14.1em;
 	opacity: 1.0;
 	top: 0;
     left: 0;
@@ -110,9 +110,10 @@ body {
 
 #footer {
 	width: 100vw;
-	height: 10em;
+	height: 8em;
 	background-color: #009BF4;
 	position: relative;
+	vertical-align: bottom;
 }
 
 .textContent {
@@ -155,4 +156,9 @@ body {
     -o-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
+}
+
+#container {
+	width: 100vw;
+	min-height: 45em;
 }
