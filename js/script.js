@@ -1,18 +1,12 @@
-var array = ["1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg"];
-var photos = new Display(array, "assets/displayImages/");
-photos.addInitialDisplayImage("imageContainer");
-photos.createBottomToggle("bottomSelect");
-photos.addArrows("leftArrow", "rightArrow");
-
 function Display(photos, path) {
 	"use strict";
 	if (this instanceof Display) {
-    	this.id = "displayPhoto"
+        this.id = "displayPhoto";
 		this.length = photos.length;
 		this.currentIndex = 0;
 		this.updateIndexValue = function (direction) {
-			var current = document.getElementById("selector" + this.currentIndex);
-			var element;
+			var current = document.getElementById("selector" + this.currentIndex),
+                element;
 			if (direction == true) {
 				if (this.currentIndex == (this.length - 1)) {
 					this.currentIndex = 0;
@@ -87,17 +81,24 @@ function Display(photos, path) {
 			});
 		}
   	} else {
-  		var defaultImages = ["trees.jpg", "waterfall.jpg", "lake.jpg", "mountain.jpg", "night.jpg"];
+  		var defaultImages = ["1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg"];
   		var defaultPath = "assets/displayImages/";
   		return new Display(defaultImages, defaultPath);
   	}
-	
 }
 
-var email = document.getElementById("sendEmail");
-email.addEventListener("click", function() {
-	window.open("mailto:lellis20@punahou.edu?subject=Latin Club&body=Hi, my name is ______. I'm in _______ grade, and I would like to join Latin Club");
-});
+function imageDisplayer() {
+    var array = ["1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg"];
+    var photos = new Display(array, "assets/displayImages/");
+    photos.addInitialDisplayImage("imageContainer");
+    photos.createBottomToggle("bottomSelect");
+    photos.addArrows("leftArrow", "rightArrow");
+}
+
+//var email = document.getElementById("sendEmail");
+//email.addEventListener("click", function() {
+//	window.open("mailto:lellis20@punahou.edu?subject=Latin Club&body=Hi, my name is ______. I'm in _______ grade, and I would like to join Latin Club");
+//});
 
 var backTop = document.getElementById("upButton");
 backTop.addEventListener("click", function() {
