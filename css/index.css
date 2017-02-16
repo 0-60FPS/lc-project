@@ -1,6 +1,5 @@
 /* Image carousel */
 #imageDisplay {
-	margin-top: 1em;
 	margin-left: 50vw;
 	width: 48%;
 	height: 30em;
@@ -72,7 +71,21 @@
 #leftArrow {
 	left: 0;
 }
-/* TODO: Make calendar much better */
+
+#calendar {
+	background-color: white;
+	width: 48%;
+	height: 40em;
+	position: absolute;
+	border: 1px solid #000;
+	margin-left: 1em;
+}
+
+.wrapper {
+	height: 100%;
+    vertical-align: top;
+    display: table-cell;
+}
 
 .flipped {
 	-moz-transform: scaleX(-1);
@@ -81,11 +94,31 @@
 	transform: scaleX(-1);
 }
 
+.calendarPhoto {
+	width: 70%;
+	height: 33%;
+}
+
+.photoContainer {
+	width: 40%;
+	height: 100%;
+	margin-top: 10%;
+}
+
 h1 {
     text-align: center;
     font-size: 300%;
     color: #2E0854; 
     font-weight: 1000;
+}
+
+#banner {
+	background-color: white;
+	height: 1.5em;
+	text-align: center;
+	padding: 1em;
+	font-size: 3em;
+	color: #009BF4;
 }
 
 

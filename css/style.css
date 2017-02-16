@@ -1,5 +1,5 @@
 /* Defaults */
-html, body, ul {
+html, body, ul{
 	/* Possible default margins and paddings can affect the spacing */
 	margin: 0;
 	padding: 0;
@@ -32,14 +32,14 @@ body {
 
 /* Header Bar*/
 #headerText {
-	font-size: 2.5em;
+	font-size: 2.25em;
 	margin: 0 auto;
 	text-align: center;
 }
 
 #header {
 	width: 100vw;
-	height: 13.5em;
+	height: 11em;
 }
 
 /* Use :after because then the opacity doesn't affect children elements of #top */
@@ -47,7 +47,7 @@ body {
 	opacity: 0.70;
 	background-image: url("../assets/header.jpg");
 	width: 100vw;
-	height: 14.1em;
+	height: 11.6em;
 	opacity: 1.0;
 	top: 0;
     left: 0;
@@ -70,8 +70,8 @@ body {
 
 #logoContainer {
 	margin: 0.5em auto;
-	width: 10em;
-	height: 10em;
+	width: 7.75em;
+	height: 7.75em;
     overflow: hidden;
 }
 
@@ -82,7 +82,7 @@ body {
     overflow: hidden;
     background-color: #F2231F;
     margin-top: 0;
-    font-size: 1.25em;
+    font-size: 1.1em;
 }
 
 /* Makes the navBar elements align to the left */
@@ -93,7 +93,7 @@ body {
 #navBar li a {
 	display: block;
     text-align: center;
-    padding: 0.75em 2em;
+    padding: 0.6em 2.25em;
     /* Remove link styling from a tags */
     text-decoration: none;
     color: #FFFFFF;
@@ -160,5 +160,6 @@ body {
 
 #container {
 	width: 100vw;
-	min-height: 45em;
+	height: 45em;
+	display: table;  
 }
