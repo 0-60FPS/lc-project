@@ -85,6 +85,15 @@ body {
     font-size: 1.1em;
 }
 
+#navBar2 {
+	/* Remove default list styling */
+	list-style-type: none;
+    overflow: hidden;
+    background-color: #5A5A59;
+    margin-top: 0;
+    font-size: 1.1em;
+}
+
 /* Makes the navBar elements align to the left */
 #navBar li {
 	float: left;
@@ -162,4 +171,15 @@ body {
 	width: 100vw;
 	height: 45em;
 	display: table;  
+}
+
+#video-tainer {
+	width: 60vw;
+	height: auto;
+	display:inherit;  
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1vh;
+ 
+    
 }
