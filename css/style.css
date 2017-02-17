@@ -177,9 +177,21 @@ body {
 
 #container {
 	width: 100vw;
-	height: 45em;
+	height: 5em;
 	display: table;  
-	margin-top: 1em;
+	margin-top: 2vh;
+
+}
+
+#about_text {
+	width: 100vw;
+	height: 5em;
+	display: table;  
+	margin-top: 2vh;
+    
+    text-align: center;
+    font-size: 4vh;
+
 }
 
 #video-tainer {
@@ -189,6 +201,17 @@ body {
     margin-left: auto;
     margin-right: auto;
     padding-top: 1vh;
- 
+    
+}
+
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    font-size: 50px;
+    text-decoration: none;
+    color: #D46F6F;
+    border-style: hidden;
+    align-content: center;
     
 }
