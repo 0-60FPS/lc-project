@@ -95,10 +95,10 @@ function imageDisplayer() {
     photos.addArrows("leftArrow", "rightArrow");
 }
 
-//var email = document.getElementById("sendEmail");
-//email.addEventListener("click", function() {
-//	window.open("mailto:lellis20@punahou.edu?subject=Latin Club&body=Hi, my name is ______. I'm in _______ grade, and I would like to join Latin Club");
-//});
+var email = document.getElementById("sendEmail");
+email.addEventListener("click", function() {
+	window.open("mailto:lellis20@punahou.edu?subject=Latin Club&body=Hi, my name is ______. I'm in _______ grade, and I would like to join Latin Club");
+});
 
 var backTop = document.getElementById("upButton");
 backTop.addEventListener("click", function() {
@@ -110,5 +110,4 @@ backTop.addEventListener("click", function() {
 			clearInterval(scrollInterval);
 		}
 	}, 5);
-	
 });
