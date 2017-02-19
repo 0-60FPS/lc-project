@@ -52,7 +52,6 @@ body {
 /* Use :after because then the opacity doesn't affect children elements of #top */
 #header:after {
 	opacity: 0.70;
-	background-image: url("../assets/background2.jpg");
 	width: 100vw;
 	height: 11.6em;
 	opacity: 1.0;
