@@ -1,10 +1,21 @@
 #about_text {
-	width: 100vw;
-	height: 5em;
-	position: absolute;
-	margin: 0;
-	top: 2em;
+	width: auto;
+	height: 50vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 5vh;
     text-align: center;
-    font-size: 2em;
+    font-size: 1.5vw;
+    color: #2D3142;
+}
+
+#about_text_credits {
+    width: auto;
+	height: 50vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 5vh;
+    text-align: center;
+    font-size: 1.5vw;
     color: #2D3142;
 }
