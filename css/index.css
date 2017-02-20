@@ -1,9 +1,16 @@
+#container {
+	background-image: url("../assets/body_back.jpg");
+	background-repeat: no-repeat;
+	height: calc(185vh - 8em);
+}
+
 /* Image carousel */
 #imageDisplay {
-	margin-left: 42vw;
-	width: 56%;
-	height: 35em;
+	margin-left: 46vw;
+	width: 50%;
+	height: 30em;
 	position: relative;
+	margin-top: 50vh;
 }
 
 #imageContainer {
@@ -73,18 +80,11 @@
 }
 
 #calendar {
-	background-color: #DFE2DB;
 	width: 40%;
 	height: 35em;
 	position: absolute;
-	border: 1px solid #000;
 	margin-left: 1em;
-}
-
-.wrapper {
-	height: 100%;
-    vertical-align: top;
-    display: table-cell;
+	margin-top: 75vh;
 }
 
 .flipped {
@@ -98,7 +98,6 @@
 	width: 50%;
 	height: 100%;
 	position: absolute;
-	background-color: #E95B57; 
 }
 
 .photoContainer {
@@ -115,7 +114,6 @@
 	margin: 0 auto;
 	text-align:center;
 	color: #DFE2DB;
-
 }
 
 #event1 {
@@ -131,17 +129,3 @@
 #secondPhoto {
 	right: 0;
 }
-
-#banner {
-	background-color: #E95B57; ; 
-	height: 1.25em;
-	text-align: center;
-	padding: 0.5em;
-	font-size: 2.75em;
-	color: #DFE2DB;
-}
-
-#container {
-	height: calc(100vh - 30.1em);
-}
-

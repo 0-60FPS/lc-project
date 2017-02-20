@@ -1,0 +1,10 @@
+#about_text {
+	width: 100vw;
+	height: 5em;
+	position: absolute;
+	margin: 0;
+	top: 2em;
+    text-align: center;
+    font-size: 2em;
+    color: #2D3142;
+}
