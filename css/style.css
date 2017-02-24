@@ -32,7 +32,7 @@ body {
 /* Header (Including the navBar and the logo) */
 #header {
 	width: 100vw;
-	height: 15vh;
+	height: 5vh;
 	position: relative;
 	background-color: #565656;
 }
@@ -44,22 +44,24 @@ body {
 }
 
 #logoContainer {
-	width: 7em;
-	height: 7em;
+	width: 6em;
+	height: 6em;
+    padding-left: .6em;
     overflow: hidden;
     position: absolute;
 	bottom: 0;
+    z-index: 8;
     
 }
 
 /* Navigation bar */
 #navBarContainer {
     width: 65%;
-    height: 35%;
+    height: 60%;
     margin: 0;
     position: absolute;
     right: 0;
-    bottom: 0;
+    top: 0;
     white-space: nowrap;
 
 }
@@ -70,9 +72,11 @@ body {
     background-color: #565656;
     margin: 0;
     padding: 0;
-    font-size: 1.1em;
-    width: 100%;
-    height: 100%;
+    font-size: 1.3em;
+    width: 65%;
+    height: 6%;
+    position: fixed;
+    z-index: 7;
 
 }
 
@@ -86,9 +90,20 @@ body {
 	display: block;
     text-align: center;
     text-decoration: none;
-    padding: 0.6em 2.25em;
+    padding: .5em 2.25em;
     /* Remove link styling from a tags */
     color: #D7CEC7;
+}
+
+#spacetainer {
+    
+    width: 100vw;
+	height: 6vh;
+	position: fixed;
+	background-color: #565656;
+    opacity: 1;
+    z-index: 6;
+    
 }
 
 #navBar li a:hover {
