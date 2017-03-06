@@ -108,12 +108,21 @@
 	right: 0em;
 }
 
-.calendarText {
-	width: 10em;
-	height: 10em;
-	margin: 0 auto;
+.calendarText_title {
+	width: 8em;
+	height: 3em;
 	text-align:center;
+	color: #76323f;
+    font-weight: bolder;
+    font-size: 2.2em;
+}
+
+.calendarText {
+	width: 8em;
+	height: 3em;
+    text-align:center;
 	color: #DFE2DB;
+    font-size: 1.8em;
 }
 
 #event1 {
