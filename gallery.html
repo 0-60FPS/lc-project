@@ -1,91 +1,47 @@
 <!DOCTYPE html>
-<html>  
+<html>
+<title>Gallery</title>
 <head>
-    <meta charset="UTF-8">
-    <title>Gallery - PLC</title> 
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/gallery.css"> 
-    <link rel="apple-touch-icon" sizes="180x180" href="/assets/fav/apple-touch-icon.png">
-    <link rel="icon" type="image/png" href="/assets/fav/favicon-32x32.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="/assets/fav/favicon-16x16.png" sizes="16x16">
-    <link rel="manifest" href="/assets/fav/manifest.json">
-    <link rel="mask-icon" href="/assets/fav/safari-pinned-tab.svg" color="#5bbad5">
-    <link rel="shortcut icon" href="/assets/fav/favicon.ico">
-    <meta name="msapplication-config" content="/assets/fav/browserconfig.xml">
-    <meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="css/styles.css">  
+<link rel="stylesheet" href="css/gallery.css">  
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" href="/assets/favicon/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/assets/favicon/favicon-16x16.png" sizes="16x16">
+<link rel="manifest" href="/assets/favicon/manifest.json">
+<link rel="mask-icon" href="/assets/favicon/safari-pinned-tab.svg" color="#5bbad5">
+<link rel="shortcut icon" href="/assets/favicon/favicon.ico">
+<meta name="msapplication-config" content="/assets/favicon/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">
 </head>
+<style>
+
+</style>
 <body>
-    <div id="header">
-        <div id="navBarContainer">
-            <ul id="navBar">
-                <li><a href="index.html">Home</a></li>
-                <li><a class="active" href="gallery.html">Gallery</a></li>
-                <li><a href="roman_history.html">Roman History</a></li>
-                <li><a href="about.html">About</a></li>
-            </ul>
-        </div>
-        <div id="spacetainer"></div>
-    </div>
-    <div id="container">
-        <div id="video-tainer">
-            <div style="position:relative; height:0; padding-bottom:56.25%">
-                <iframe src="https://www.youtube-nocookie.com/embed/90Z9E5rAvJM?ecver=2" width="640" height="360" frameborder="0" style="position:absolute; width:100%; height:100%; left:0" allowfullscreen></iframe>
-            </div>
-        </div>
-    </div>
-    
-<div class="container">
-  <img src="/assets/displayImages/1.jpg" alt="disp_1" class="image">
-  <div class="overlay">
-    <div class="text">Carter Teaches</div>
-  </div>
-</div>
-        
-<div class="container">
-  <img src="/assets/displayImages/2.jpg" alt="disp_1" class="image">
-  <div class="overlay">
-    <div class="text">Zane Points at a Wall</div>
-  </div>
-</div>
-    
-<div class="container">
-  <img src="/assets/displayImages/3.jpg" alt="disp_1" class="image">
-  <div class="overlay">
-    <div class="text">Carter in Disbelief</div>
-  </div>
-</div>
-    
-<div class="container">
-  <img src="/assets/displayImages/4.jpg" alt="disp_1" class="image">
-  <div class="overlay">
-    <div class="text">People Stare at Carter</div>
-  </div>
-</div>
-    
-<div class="container">
-  <img src="/assets/displayImages/5.jpg" alt="disp_1" class="image">
-  <div class="overlay">
-    <div class="text">Brad does Japanese</div>
-  </div>
-</div>
-    
-    
-    <div id="footer">
-        <div class="textContent">
-            Interested in joining? Please email <p id="sendEmail">lellis20@punahou.edu</p> or show up to a meeting.
-        </div>
-        <div id="upButton" title="Back to Top">
-            <img id="upIcon" class="photo" src="assets/arrow.png" alt="arrow button">
-        </div>
-    </div>
-    <script src="js/konami.js"></script>
-    <script src="js/script.js"></script>
-    <html>
 
-    
-</html>
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="index.html">Home</a>
+  <a href="gallery.html">Gallery</a>
+  <a href="roman_history.html">Roman History</a>
+  <a href="about.html">About</a>
+</div>
 
+<div id="main">
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+    <h2>Gallery</h2>
+</div>
 
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+}
 
-
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+     
+</body>
+</html> 
