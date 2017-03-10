@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<title>Home</title>
+<head>
+<link rel="stylesheet" href="css/styles.css">  
+</head>
+<style>
+
+</style>
+<body>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="index.html">Home</a>
+  <a href="gallery.html">Gallery</a>
+  <a href="roman_history.html">Roman History</a>
+  <a href="about.html">About</a>
+</div>
+
+<div id="main">
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+    <h2>Home</h2>
+</div>
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+     
+</body>
+</html> 
