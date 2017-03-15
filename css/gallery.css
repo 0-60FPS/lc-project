@@ -46,3 +46,28 @@ body {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
+
+
+.video-container {
+	position:relative;
+	padding-bottom:56.25%;
+	padding-top:30px;
+	height:0;
+	overflow:hidden;
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+	position:absolute;
+	left:25vw;
+	width:50%;
+	height:50%;
+}
+
+#disImage {
+    position: relative;
+    width: 50%;
+    left: 25vw;
+    top: inherit;
+
+
+}
