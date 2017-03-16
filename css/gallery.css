@@ -50,10 +50,10 @@ body {
 
 .video-container {
 	position:relative;
-	padding-bottom:56.25%;
-	padding-top:30px;
+	padding-bottom:56%;
 	height:0;
-	overflow:hidden;
+    width: auto;
+	overflow:inherit;
 }
 
 .video-container iframe, .video-container object, .video-container embed {
@@ -67,7 +67,4 @@ body {
     position: relative;
     width: 50%;
     left: 25vw;
-    top: inherit;
-
-
 }
