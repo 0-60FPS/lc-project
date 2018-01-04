@@ -1,0 +1,11 @@
+#clubSummary {
+	font-size: 200%;
+	width: 85%;
+	height: 20%;
+	position: relative;
+	left: 0;
+	right: 0;
+	margin: auto;
+	text-align: left;
+	top: 2vh;
+}

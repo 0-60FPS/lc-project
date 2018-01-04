@@ -1,0 +1,109 @@
+#container {
+	background-color: white;
+	background-image: none;
+}
+
+.photoCarousel {
+	width: 30%;
+	height: 26%;
+	position: absolute;
+	background-color: #222222;
+}
+
+#columnsPictures {
+	top: 10vh;
+	left: 3vw;
+}
+
+#columnsHeader, #columnsDate {
+	left: 3vw;
+}
+
+#ballistaePictures {
+	top: 10vh;
+	left: 35vw;
+}
+
+#ballistaeHeader, #ballistaeDate {
+	left: 35vw;
+}
+
+#ballistaeVideo {
+	width: 100%;
+	height: 100%;
+}
+
+#stagingPictures {
+	top: 10vh;
+	left: 67vw;
+}
+
+#stagingHeader, #stagingDate {
+	left: 67vw;
+}
+
+.eventDate {
+	color: #964444;
+	position: absolute;
+	height: 13%;
+	font-size: 150%;
+	top: 36vh;
+}
+
+.pictureTitle {
+	color: #964444;
+	position: absolute;
+	height: 13%;
+	font-size: 200%;
+	top: 6vh;
+	font-weight: bold;
+}
+
+
+.carouselContainer {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+.arrow {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+}
+
+.leftArrow {
+	left: 0.5vw;
+	width: 0; 
+	height: 0; 
+	border-top: 1vw solid transparent;
+	border-bottom: 1vw solid transparent; 
+	border-right: 1vw solid #964444; 
+
+}
+
+.rightArrow {
+	right: 0.5vw;
+	width: 0; 
+	height: 0; 
+	border-top: 1vw solid transparent;
+	border-bottom: 1vw solid transparent;
+	border-left: 1vw solid #964444;
+}
+
+.currentImage {
+	width: 82%;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.currentImage img {
+	width: 100%;
+	height: 100%;
+	color: black;
+}
+
+.hidden {
+	display: none;
+}

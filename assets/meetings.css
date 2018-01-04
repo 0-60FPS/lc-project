@@ -1,0 +1,25 @@
+#nextMeeting {
+	color: #964444;
+	position: absolute;
+	width: 85%;
+	height: 13%;
+	font-weight: bold;
+	left: 2vw;
+	right: 0;
+	top: 4vh;
+	text-align: left;
+}
+
+.meetingDate {
+	font-size: 450%;
+}
+
+.theme {
+	font-size: 300%;
+	text-indent: 10vh;
+}
+
+#container {
+	background-image: none !important;
+	background-color: #c2c2d1;
+}

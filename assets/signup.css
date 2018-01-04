@@ -1,0 +1,78 @@
+#formsContainer {
+	margin: auto;
+	right: 0;
+	left: 0;
+	top: 10vh;
+	position: absolute;
+	width: 80%;
+	height: 80%;
+	background-color: #222222;
+}
+
+#formsWrapper {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+#nameData {
+	position: absolute;
+	top: 6vh;
+	left: 2vw;
+}
+
+#nameData h2, #grade h2, #emailData h2 {
+	display: inline;
+}
+
+div input {
+	margin-left: 1vw;
+}
+
+#grade {
+	position: absolute;
+	top: 12vh;
+	left: 2vw;
+}
+
+#emailData {
+	position: absolute;
+	top: 18vh;
+	left: 2vw;
+}
+
+#paragraphResponses {
+	position: absolute;
+	top: 30vh;
+	left: 2vw;
+}
+
+#paragraphResponses textarea {
+	width: 30vw;
+	height: 6vh;
+	max-width: 45vw;
+	max-height: 25vh;
+	margin-left: 2vw;
+}
+
+#submitButton {
+	position: absolute;
+	top: 70vh;
+	right: 2vw;
+	font-weight: bold;
+	font-size: 120%;
+	width: 8vw;
+	height: 3vh;
+	background-color: white;
+	color: black;
+	text-align: center;
+	line-height: 3vh;
+}
+
+#error {
+	color: red;
+	position: absolute;
+	top: 70vh;
+	left: 2vw;
+	font-size: 150%;
+}
